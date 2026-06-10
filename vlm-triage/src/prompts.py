@@ -77,11 +77,6 @@ Reasoning Summary:
 Clinical Handoff Summary:
 """
 
-ADDITIONAL_CONTEXT = """
-Provide a clear, structured clinical interpretation following the required format.
-Do not include alert colors in the final clinical summary.
-Do not provide hidden chain-of-thought. Provide only a concise reasoning summary suitable for clinical documentation.
-End with a single clinical handoff summary paragraph.
-"""
+
 
 
