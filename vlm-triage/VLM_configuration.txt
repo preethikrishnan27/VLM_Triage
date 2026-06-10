@@ -1,0 +1,12 @@
+# Model Generation Parameters
+
+| Parameter | Value | Operational Range | Description |
+|------------|---------|------------------|-------------|
+| Model | Gemini 2.5 Flash | N/A | Vision-language model used for physiological trend interpretation and triage generation |
+| Temperature | 1.0 | 0.0–2.0 | Controls output randomness |
+| Top-p | 0.95 | 0.0–1.0 | Nucleus sampling threshold |
+| Top-k | 64 | Fixed | Restricts candidate token selection |
+| Candidate Count | 1 | 1–8 | Single response generated |
+| Max Output Tokens | 65535 | Maximum Limit | Upper bound on generated response length |
+| Thinking Budget | 0 (Disabled) | Minimum Threshold | Internal reasoning budget disabled |
+| Safety Settings | Standard Platform | Block Medium/High | Platform safety filtering enabled |
